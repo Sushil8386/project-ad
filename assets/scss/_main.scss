@@ -1,0 +1,176 @@
+%tras-01 {
+  transition: 0.1s all cubic-bezier(0.25, 0.1, 0, 1.7);
+}
+%tras-02 {
+  transition: 0.2s all cubic-bezier(0.25, 0.1, 0, 1.7);
+}
+%tras-03 {
+  transition: 0.3s all cubic-bezier(0.25, 0.1, 0, 1.7);
+}
+%tras-04 {
+  transition: 0.4s all cubic-bezier(0.25, 0.1, 0, 1.7);
+}
+%tras-05 {
+  transition: 0.5s all cubic-bezier(0.25, 0.1, 0, 1.7);
+}
+%tras-06 {
+  transition: 0.6s all cubic-bezier(0.25, 0.1, 0, 1.7);
+}
+%tras-07 {
+  transition: 0.7s all cubic-bezier(0.25, 0.1, 0, 1.7);
+}
+%tras-08 {
+  transition: 0.8s all cubic-bezier(0.25, 0.1, 0, 1.7);
+}
+%tras-09 {
+  transition: 0.9s all cubic-bezier(0.25, 0.1, 0, 1.7);
+}
+%tras-1 {
+  transition: 1s all cubic-bezier(0.25, 0.1, 0, 1.7);
+}
+%tras-15 {
+  transition: 1.5s all cubic-bezier(0.25, 0.1, 0, 1.7);
+}
+%tras-2 {
+  transition: 2s all cubic-bezier(0.25, 0.1, 0, 1.7);
+}
+
+::-webkit-scrollbar-track {
+  // -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+  background-color: rgba($black, 0);
+}
+
+::-webkit-scrollbar {
+  width: 6px;
+  background-color: rgba($black, 0);
+}
+
+::-webkit-scrollbar-thumb {
+  background-color: $theme2;
+}
+
+body {
+  font-family: "Rubik", sans-serif;
+}
+
+
+// breadcrumb
+.breadcrumb {
+  & .breadcrumb-item {
+    &.active {
+      color: $theme3 !important;
+    }
+    &::before {
+      color: $theme3 !important;
+    }
+  }
+}
+
+// about_section
+.about_section {
+  & .inner_section {
+    & .card {
+      .card-body {
+        & .content_wrapper {
+          transition: all .4s;
+          width: 200px;
+          height: 200px;
+          border: 1px solid rgba($theme1, 0.1);
+          & .content {
+          transition: all .4s;
+            width: 180px;
+            height: 180px;
+            padding: 15px;
+            background-clip: content-box;
+            border: 1px solid rgba($theme1, 0.2);
+          }
+          &:hover{
+          box-shadow: 0px 0px 10px rgb($black, 0.15);
+          & .content{
+          box-shadow: 0px 0px 10px rgb($black, 0.15);
+          }
+          }
+        }
+      }
+    }
+  }
+}
+
+// aboutus_page
+.aboutus_page {
+background-image: linear-gradient(90deg, $theme1 0%, $theme2 100%);
+}
+
+.how_to_play_page {
+  & .nav-pills {
+    & .nav-link {
+      background-image: linear-gradient(90deg, $theme1 0%, $theme2 100%);
+      transition: all 0.4s;
+      &.active {
+        background: $theme1 !important;
+        color: #fff !important;
+      }
+    }
+  }
+}
+
+
+// SVG IMAGE Color
+.svgColor1 {
+  fill: $theme1 !important;
+}
+
+
+// Responsive Midea Q.
+@media screen and (min-width: 768px) {
+  .about_section {
+    & .inner_section {
+      & .card {
+        .card-body {
+          & .content_wrapper {
+            width: 245px;
+            height: 245px;
+            & .content {
+              width: 215px;
+              height: 215px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+@media screen and (max-width: 768px) {
+  .how_to_play_page {
+    & .nav-pills {
+      flex-wrap: nowrap;
+      overflow: auto hidden;
+      & .nav-link {
+        white-space: nowrap;
+      }
+    }
+
+    ::-webkit-scrollbar {
+      height: 6px;
+      margin: 20px 10px;
+    }
+
+    /* Track */
+    ::-webkit-scrollbar-track {
+      box-shadow: inset 0 0 5px grey;
+      border-radius: 10px;
+    }
+
+    /* Handle */
+    ::-webkit-scrollbar-thumb {
+      background: $theme1;
+      border-radius: 10px;
+    }
+
+    /* Handle on hover */
+    ::-webkit-scrollbar-thumb:hover {
+      background: $theme1;
+      cursor: pointer;
+    }
+  }
+}
