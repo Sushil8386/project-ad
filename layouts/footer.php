@@ -56,7 +56,7 @@
             <div class="row py-3">
                 <div class="col-12 fs-lg-15 fs-md-14 fs-14 text-center">
                     © <strong><span> <b>Baazigar11</b></span></strong>. All Rights Reserved | <a href="https://www.imgglobalinfotech.com/" target="_blank" class="credits m-0">
-                        <span><b class="text-dark">Design &amp; Developed By</b></span> <img data-bs-toggle="tooltip" data-bs-placement="top" title="" src="<?php echo f_path ?>assets/img/logos/logo.png" class="h-md-30px h-25px" alt="" data-bs-original-title="IMG Global Infotech" aria-label="IMG Global Infotech">
+                        <span><b class="text-dark">Design &amp; Developed By</b></span> <img data-bs-toggle="tooltip" data-bs-placement="top" title="" src="<?php echo f_path ?>assets/img/logos/logo.png" class="img-fluid" alt="" data-bs-original-title="IMG Global Infotech" aria-label="IMG Global Infotech">
                     </a>
                 </div>
             </div>

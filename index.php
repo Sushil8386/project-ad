@@ -10,13 +10,25 @@
                 <div class="row align-items-center">
                     <div class="col-lg-6 order-lg-1 order-2">
                         <div class="inner">
-                            <h1 class="hero_title text-theme1 mb-3 fw-bold fs-xl-60 fs-md-50 fs-sm-40 fs-30 text-sm-start text-center">The New Way to Invest in Sports</h1>
-                            <p class="section_info mb-4 text-dark fw-normal fs-md-18 fs-16"><span class="fw-bold">Baazigar11</span> management platform for cricket operating to engage cricket fans to have more fun out of the Game of Cricket.</p>
-                            <div class="text-sm-start text-center"><a href="javascript:;" class="cr_btn"><i class="imgb img-android me-2"></i><span>Download App</span></a></div>
+                            <h1 class="hero_title text-theme1 mb-3 fw-normal fs-xl-50 fs-md-50 fs-sm-40 fs-30 text-sm-start text-center">Creative Mobile App Development Company in Jaipur, Rajasthan, India</h1>
+                            <p class="section_info mb-4 text-light fw-normal fs-md-18 fs-16">We are a dynamic mobile and web app development company, dedicated to crafting user-friendly and business-oriented solutions. Collaborating with individuals and organizations, we create, market, and deliver exceptional products to their target audience.</p>
+                            <div class="text-sm-start text-center d-flex align-items-center gap-3">
+                                <a href="javascript:;" class="cr_btn"><span>GET FREE QUOTE</span></a>
+                                <a href="tel:+91 954958158" class="cr_btn cr_btn_outline"><span>CALL +91 954958158</span></a>
+                            </div>
                         </div>
                     </div>
                     <div class="col-lg-6 order-lg-2 order-1 mb-lg-0 mb-4">
-                        <div class="inner_img d-flex justify-content-lg-end justify-content-center"><img src="<?php echo f_path ?>assets/img/index/hero_img.svg" alt="" class="w-90"></div>
+                        <div class="inner_img position-relative d-flex justify-content-lg-end justify-content-center">
+                            <img src="<?php echo f_path ?>assets/img/index/play-btn.png" alt="" class="uperImg heroImgAnimation">
+                            <img src="<?php echo f_path ?>assets/img/index/progress-bars.png" alt="" class="uperImg heroImgAnimation">
+                            <img src="<?php echo f_path ?>assets/img/index/code-box.png" alt="" class="uperImg heroImgAnimation">
+                            <img src="<?php echo f_path ?>assets/img/index/c-book.png" alt="" class="uperImg heroImgAnimation">
+                            <img src="<?php echo f_path ?>assets/img/index/circle-big.png" alt="" class="uperImg heroImgAnimation2">
+                            <img src="<?php echo f_path ?>assets/img/index/circle-md.png" alt="" class="uperImg heroImgAnimation2">
+                            <img src="<?php echo f_path ?>assets/img/index/circle-sm.png" alt="" class="uperImg heroImgAnimation2">
+                            <img src="<?php echo f_path ?>assets/img/index/hero-image.png" alt="" class="img-fluid">
+                        </div>
                     </div>
                 </div>
             </div>
